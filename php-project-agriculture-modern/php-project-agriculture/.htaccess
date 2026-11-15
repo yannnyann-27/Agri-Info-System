@@ -1,0 +1,4 @@
+# Never serve dotfiles such as .env, .gitignore (Apache 2.4)
+<FilesMatch "^\.(?!well-known)">
+    Require all denied
+</FilesMatch>

@@ -1,0 +1,7 @@
+# keep secrets and repo metadata out of the image (COPY . would otherwise include them)
+.env
+.env.*
+.git
+.gitignore
+.dockerignore
+*.log
