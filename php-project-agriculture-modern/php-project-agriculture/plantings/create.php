@@ -122,7 +122,7 @@ include '../includes/header.php';
                 <?php if (isset($errors[$name])): ?><p class="field-error"><?php icon('alert', 'w-4 h-4'); ?> <?= htmlspecialchars($errors[$name]) ?></p><?php endif; ?>
             </div>
         <?php endforeach; ?>
-
+        <h1>Git push</h1>
         <div class="sm:col-span-2 form-actions">
             <a href="index.php" class="btn btn-secondary">Cancel</a>
             <button type="submit" class="btn btn-primary">Save Planting</button>
